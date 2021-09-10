@@ -28,7 +28,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/amin-benslimen-451421204/",
   gmail: "aminbenslimen00@gmail.com",
   gitlab: "https://gitlab.com/aminBenSlimen",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/100004126395359",
   stackoverflow: "https://stackoverflow.com/users/12828765/aminben-slimen",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
