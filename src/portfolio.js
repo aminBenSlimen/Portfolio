@@ -126,7 +126,16 @@ const educationInfo = {
       schoolName: "ISET sfax",
       logo: require("./assets/images/sigle iset sfax-fi803493x131.png"),
       subHeader: "License of Computer Science",
-      duration: "Aout 2020 - Aout 2021",
+      duration: "Aout 2019 - Aout 2021",
+      desc: "",
+      descBullets: [
+      ]
+    },
+    {
+      schoolName: "IIT Institut International de Technologie",
+      logo: require("./assets/images/download.png"),
+      subHeader: "Master of Data science and technology",
+      duration: "September 2021 - Aout 2022",
       desc: "",
       descBullets: [
       ]
@@ -222,6 +231,17 @@ const bigProjects = {
         {
           name: "See video",
           url: "https://drive.google.com/file/d/1wuvMJYPwiR-RsR-S4NzX8YzP5aiWSd3t/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/unnamed.webp"),
+      projectName: "Futuur",
+      projectDesc: "Futuur is a prediction market providing more accurate forecasts across a range of topics",
+      footerLink: [
+        {
+          name: "Visit website",
+          url: "https://futuur.com"
         }
       ]
     }
