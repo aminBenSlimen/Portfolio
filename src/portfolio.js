@@ -235,7 +235,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/unnamed.webp"),
+      image: require("./assets/images/futuur.png"),
       projectName: "Futuur",
       projectDesc: "Futuur is a prediction market providing more accurate forecasts across a range of topics",
       footerLink: [
