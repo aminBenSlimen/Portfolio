@@ -14,7 +14,7 @@ const greeting = {
   username: "Amin Ben Slimen",
   title: "Hi all, I'm Amin",
   subTitle: emoji(
-    'As a highly motivated and skilled front-end developer with 3 years of experience in various companies, I bring a wealth of knowledge and expertise to any project. My biggest achievement has been leading the development of a market prediction platform that received widespread recognition for its innovative design and seamless user experience. My attention to detail, passion for technology, and ability to work collaboratively make me an asset to any team.'
+    'As a highly motivated and skilled full-stack but front-end heavy developer with 3 years of experience in various companies, I bring a wealth of knowledge and expertise to any project. My attention to detail, passion for technology, and ability to work collaboratively make me an asset to any team.'
   ),
   resumeLink:
     "https://drive.google.com/file/d/1o1tdHul127FOXXx4BNE1kK5LZVUeTEgz/view?usp=sharing",
@@ -84,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "databases",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "laravel",
-      fontAwesomeClassname: "fas fa-laravel"
     },
     {
       skillName: "unity",
@@ -170,29 +166,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Game developer",
+      company: "Freelance at fiverr",
+      companylogo: "https://files.jotform.com/jotformapps/0d51c1a6dc78d20137f6ac7d98eca9f9.png",
+      date: "June 2019 – November 2020",
+      desc: "Collaborated with multiple companies as a freelance game developer, delivering engaging and immersive gaming experiences across various platforms. Leveraging my expertise in game design and development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed strong soft skills and work ethic in this experience.",
+        "Sharpened my time management and stress tolerance skills during this freelance experience, which overlapped with my studies and other full-time work commitments. "
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack developer + Scrum master",
+      company: "IOTA",
+      companylogo: require("./assets/images/Screenshot_19.png"),
+      date: "Jan 2020 – Mar 2020",
+      desc: "At IOTA, I had the opportunity to showcase my technical and leadership skills as a web app developer, where I successfully managed and developed a cutting-edge pool platform. My expertise in modern web technologies and ability to drive projects from conception to launch allowed me to deliver a robust, scalable, and user-friendly platform. I'm proud to have played a key role in the growth and success of IOTA, and I am eager to bring my experience and skills to a new challenge."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front End Developer",
+      company: "PMC",
+      companylogo: "https://lh3.googleusercontent.com/p/AF1QipMzx7LDwwI7MXyDZLB6-E5Q40RztT4mpc8H8z36=s680-w680-h510",
+      date: "Feb 2021 – Nov 2021",
+      desc: "At PMC, I had the privilege of working with clients to enhance their business processes through the development of custom web and mobile applications. As the lead developer on several projects, I was responsible for building seamless integrations between the clients' desktop ERP systems and the new web and mobile apps. I leveraged my expertise in web development and project management to deliver high-quality solutions that exceeded client expectations and drove their businesses forward."
+    },
+    {
+      role: "Front End Developer",
+      company: "Futuur",
+      companylogo: "https://play-lh.googleusercontent.com/4r5PuKP2DiyCQJkv9tCoyQMI2syakhFJkOCP9uP-9Z9RS7UCG-vYpKwJxLbC6DzV5Xxj",
+      date: "Nov 2021 – Present",
+      desc: "At Futuur, I had the unique experience of working remotely with a talented team of backend developers and designers to maintain, redesign, and improve their cutting-edge platform. As a front-end developer, I was responsible for bringing the designs to life and ensuring a seamless user experience. My strong communication skills and ability to work collaboratively allowed me to thrive in a remote environment and contribute to the success of the platform."
     }
   ]
 };
@@ -240,8 +243,19 @@ const bigProjects = {
       projectDesc: "Futuur is a prediction market providing more accurate forecasts across a range of topics",
       footerLink: [
         {
-          name: "Visit website",
+          name: "Visit website !",
           url: "https://futuur.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pngLogoDark.png"),
+      projectName: "Cokitana",
+      projectDesc: "Cokitana is a Co-founded innovative IT startup delivering bespoke solutions with cutting-edge technologies.",
+      footerLink: [
+        {
+          name: "Visit our website !",
+          url: "https://cokitana.com"
         }
       ]
     }
