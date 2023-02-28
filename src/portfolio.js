@@ -14,7 +14,7 @@ const greeting = {
   username: "Amin Ben Slimen",
   title: "Hi all, I'm Amin",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScrip  t / Angular / Nodejs / Ionic and some other cool libraries and frameworks."
+    'As a highly motivated and skilled front-end developer with 3 years of experience in various companies, I bring a wealth of knowledge and expertise to any project. My biggest achievement has been leading the development of a market prediction platform that received widespread recognition for its innovative design and seamless user experience. My attention to detail, passion for technology, and ability to work collaboratively make me an asset to any team.'
   ),
   resumeLink:
     "https://drive.google.com/file/d/1o1tdHul127FOXXx4BNE1kK5LZVUeTEgz/view?usp=sharing",
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL-STACK ( FRONT-END HEAVY ) DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive User Interfaces for your web, mobile and POS applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Seamlessly integrate third-party APIs and bots into any ERP/system to optimize functionality, improve efficiency, and streamline operations."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design and develop engaging games for various platforms."
     )
   ],
 
@@ -82,12 +82,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "databases",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "laravel",
+      fontAwesomeClassname: "fas fa-laravel"
     },
     {
       skillName: "unity",
@@ -149,7 +149,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
