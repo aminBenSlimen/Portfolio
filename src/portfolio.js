@@ -17,7 +17,7 @@ const greeting = {
     'As a highly motivated and skilled full-stack but front-end heavy developer with 3 years of experience in various companies, I bring a wealth of knowledge and expertise to any project. My attention to detail, passion for technology, and ability to work collaboratively make me an asset to any team.'
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1o1tdHul127FOXXx4BNE1kK5LZVUeTEgz/view?usp=sharing",
+    "https://drive.google.com/file/d/15PnUoDvfyu3b_X2bgJsufoZtLW5ghYXY/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
